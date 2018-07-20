@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    background-color: #cccccc;
+}
+
+#pageHeader{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+#pageHeader>div>span{
+    font-size: 30px;
+    margin-left: 80px;
+}
+
+#headerButton{
+    float: right;
+    font-size: 20px;
+    margin-right: 80px;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+#firstSection{
+    border: 1px solid white;
+    margin: 100px;
+    background-color: white;
+}
+
+img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: -80px;
+    border: #cccccc 5px solid;
+    margin-left: 50px;
+}
+
+#sectionHeader{
+    margin: 0 auto;
+    width: 400px;
+}
+
+#myContainer{
+    display: flex;
+    margin: 0 10px;
+}
+
+#AoutMe{
+    flex-basis: 60%;
+    margin-right: 20px;
+}
+
+#ContectMe{
+    flex-basis: 40%;
+    word-break: break-all;
+}
+
+.title{
+    color: #EC7263;
+    font-size: 20px;
+}
